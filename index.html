@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Galeria de Fotos</h1>
+        <button type="button">Nova imagem +</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagem</h2>
+        <input type="url" id="endereco-nova-imagem" required placeholder="URL da imagem" />
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+        
+    </form>
+    <ul>
+        <li>
+            <img src="./imagens/imagem1.jpg" alt="espaço" />
+            <div class="overlay-imagem-link">
+                <a href="./imagens/imagem1.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./imagens/imagem2.jpg" alt="desenho leão no espaço" />
+            <div class="overlay-imagem-link">
+                <a href="./imagens/imagem2.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./imagens/imagem3.png" alt="montanha e balões" />
+            <div class="overlay-imagem-link">
+                <a href="./imagens/imagem3.png" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./imagens/imagem4.jpg" alt="lago com montanha no fundo" />
+            <div class="overlay-imagem-link">
+                <a href="./imagens/imagem4.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./imagens/imagem5.png" alt="cabine vermelha de telefone público" />
+            <div class="overlay-imagem-link">
+                <a href="./imagens/imagem5.png" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./imagens/imagem6.jpg" alt="soldado armado de costas" />
+            <div class="overlay-imagem-link">
+                <a href="./imagens/imagem6.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./imagens/imagem7.jpg" alt="quatro crianças de bicicleta" />
+            <div class="overlay-imagem-link">
+                <a href="./imagens/imagem7.jpg" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+        <li>
+            <img src="./imagens/imagem8.png" alt="quatro robôs voando" />
+            <div class="overlay-imagem-link">
+                <a href="./imagens/imagem8.png" title="Ver imagem em tamanho real" target="_blank">
+                    Ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
